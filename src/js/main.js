@@ -9,7 +9,7 @@ const siteConfig = {
     about: '我是一名大一计算机科学专业的学生，对编程充满热情。我喜欢学习新技术，探索不同的编程领域，并通过项目来实践所学知识。目前专注于 Web 开发和机器人技术。',
     skills: ['Python', 'JavaScript', 'HTML/CSS', 'C++', 'Git', 'ROS'],
     social: [
-        { name: 'GitHub', url: 'https://github.com/yourusername', icon: 'gh' },
+        { name: 'GitHub', url: 'https://github.com/siqili723547-ui', icon: 'gh' },
         { name: '邮箱', url: 'mailto:your@email.com', icon: '✉' }
     ]
 };
