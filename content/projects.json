@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "title": "油茶果采摘机器人",
+            "description": "基于 ROS 的智能采摘机器人，集成视觉定位、导航避障、STM32 运动控制等模块。采用 YOLOv8 进行果实检测，SLAM 技术实现自主导航。",
+            "tags": ["Python", "ROS", "OpenCV", "STM32", "YOLO"],
+            "image": "",
+            "link": "https://github.com/yourusername/harvest-robot",
+            "github": "https://github.com/yourusername/harvest-robot"
+        },
+        {
+            "title": "个人作品集网站",
+            "description": "使用纯 HTML/CSS/JavaScript 构建的响应式个人网站，包含粒子背景、打字机效果、滚动动画等创意动效。",
+            "tags": ["HTML", "CSS", "JavaScript"],
+            "image": "",
+            "link": "https://yourusername.github.io",
+            "github": "https://github.com/yourusername/portfolio"
+        },
+        {
+            "title": "算法学习笔记",
+            "description": "记录学习数据结构与算法过程中的笔记和代码实现，包含常见算法的 Python 实现。",
+            "tags": ["Python", "算法", "数据结构"],
+            "image": "",
+            "link": "#",
+            "github": "https://github.com/yourusername/algorithm-notes"
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="个人作品集网站 - 展示我的项目、技能和文章">
+    <meta name="keywords" content="作品集, 项目, 编程, 开发">
+    <title>我的作品集</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- 粒子背景 -->
+    <div id="particles" class="particles"></div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Portfolio</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">首页</a></li>
+                <li><a href="#about" class="nav-link">关于我</a></li>
+                <li><a href="#projects" class="nav-link">项目</a></li>
+                <li><a href="#blog" class="nav-link">博客</a></li>
+                <li><a href="#contact" class="nav-link">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero 区域 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="greeting">你好，我是</span>
+                <span class="name" id="typedName"></span>
+            </h1>
+            <p class="hero-subtitle" id="typedSubtitle"></p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">查看项目</a>
+                <a href="#contact" class="btn btn-secondary">联系我</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">关于我</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p id="aboutDescription">加载中...</p>
+                </div>
+                <div class="skills-section fade-in">
+                    <h3>技能</h3>
+                    <div class="skills-cloud" id="skillsCloud"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">我的项目</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- 项目卡片将通过 JS 动态生成 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 博客文章 -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title fade-in">博客文章</h2>
+            <div class="blog-grid" id="blogGrid">
+                <!-- 文章卡片将通过 JS 动态生成 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">联系我</h2>
+            <div class="contact-content fade-in">
+                <div class="contact-info">
+                    <h3>让我们一起交流</h3>
+                    <p>如果你对我的项目感兴趣，或者想要合作，欢迎联系我！</p>
+                    <div class="social-links" id="socialLinks"></div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="你的名字" required>
+                    <input type="email" placeholder="你的邮箱" required>
+                    <textarea placeholder="你想说的话..." rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> 我的作品集. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
